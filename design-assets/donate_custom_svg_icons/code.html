@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Donate | Kwas House</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed": "#d4e3ff",
+              "secondary-fixed-dim": "#ffb86a",
+              "secondary": "#895200",
+              "secondary-container": "#fda945",
+              "on-tertiary-fixed": "#001d35",
+              "on-tertiary-container": "#7390b2",
+              "outline": "#74777f",
+              "secondary-fixed": "#ffdcbc",
+              "surface-tint": "#436087",
+              "on-surface-variant": "#43474e",
+              "tertiary-fixed-dim": "#abc9ee",
+              "on-error-container": "#93000a",
+              "background": "#fcf9f4",
+              "surface-dim": "#dcdad5",
+              "tertiary-container": "#032845",
+              "inverse-surface": "#31302d",
+              "surface-bright": "#fcf9f4",
+              "inverse-primary": "#abc8f5",
+              "primary": "#001229",
+              "on-primary-container": "#738fb9",
+              "on-background": "#1c1c19",
+              "error-container": "#ffdad6",
+              "surface-container-high": "#ebe8e3",
+              "inverse-on-surface": "#f3f0eb",
+              "on-secondary-fixed-variant": "#683d00",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1c1c19",
+              "surface-container-low": "#f6f3ee",
+              "primary-fixed-dim": "#abc8f5",
+              "surface-variant": "#e5e2dd",
+              "surface-container-highest": "#e5e2dd",
+              "primary-container": "#02274b",
+              "surface": "#fcf9f4",
+              "on-tertiary": "#ffffff",
+              "error": "#ba1a1a",
+              "tertiary-fixed": "#d0e4ff",
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#001325",
+              "surface-container": "#f0ede8",
+              "on-secondary-container": "#6e4100",
+              "outline-variant": "#c3c6cf",
+              "on-primary-fixed-variant": "#2b486d",
+              "on-secondary-fixed": "#2c1700",
+              "on-tertiary-fixed-variant": "#2b4967",
+              "on-primary-fixed": "#001c39",
+              "on-primary": "#ffffff",
+              "on-error": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 backdrop-blur-md shadow-[0_40px_40px_rgba(2,39,75,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold text-[#02274B] tracking-tighter">Kwas House</div>
+<div class="hidden md:flex items-center gap-8 font-['Plus_Jakarta_Sans'] text-sm font-semibold tracking-tight">
+<a class="text-[#43474e] hover:text-[#02274B] transition-colors" href="#">Home</a>
+<a class="text-[#43474e] hover:text-[#02274B] transition-colors" href="#">About Us</a>
+<a class="text-[#43474e] hover:text-[#02274B] transition-colors" href="#">The Project</a>
+<a class="text-[#43474e] hover:text-[#02274B] transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-6 py-2.5 rounded-full font-bold text-sm shadow-sm active:scale-95 duration-200 transition-all">
+                Donate
+            </button>
+</div>
+</nav>
+<main class="flex-grow pt-24 pb-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Hero Section -->
+<header class="mb-16">
+<h1 class="text-5xl md:text-6xl font-extrabold text-primary tracking-tighter mb-6 max-w-2xl leading-[1.1]">
+                    Support the <span class="text-secondary-container">Radiant Sanctuary</span>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                    Your contribution directly powers Kwas House, providing immediate shelter, long-term stability, and community-driven hope for those in need.
+                </p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Column: Donation Form Card -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-xl p-8 lg:p-12 shadow-sm border border-outline-variant/10">
+<h2 class="text-2xl font-bold text-primary mb-8">Make an Impact</h2>
+<!-- Amount Selection -->
+<div class="mb-10">
+<label class="block text-sm font-bold text-primary mb-4">Select Donation Amount</label>
+<div class="grid grid-cols-3 gap-4">
+<button class="py-4 rounded-lg bg-surface-container-highest border-2 border-transparent hover:border-secondary transition-all font-bold text-lg text-primary">
+                                $50
+                            </button>
+<button class="py-4 rounded-lg bg-white border-2 border-secondary transition-all font-bold text-lg text-primary">
+                                $100
+                            </button>
+<button class="py-4 rounded-lg bg-surface-container-highest border-2 border-transparent hover:border-secondary transition-all font-bold text-lg text-primary">
+                                $500
+                            </button>
+</div>
+<div class="mt-4 relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant font-bold">$</span>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-4 pl-8 pr-4 text-primary font-medium focus:ring-2 focus:ring-secondary transition-all" placeholder="Other Amount" type="number"/>
+</div>
+</div>
+<!-- Payment Information -->
+<div class="space-y-6">
+<div>
+<label class="block text-sm font-bold text-primary mb-2">Cardholder Name</label>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-3 px-4 text-primary focus:ring-2 focus:ring-secondary transition-all" placeholder="John Doe" type="text"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="md:col-span-2">
+<label class="block text-sm font-bold text-primary mb-2">Card Number</label>
+<div class="relative">
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-3 px-4 text-primary focus:ring-2 focus:ring-secondary transition-all" placeholder="**** **** **** ****" type="text"/>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center">
+<svg fill="none" height="14" viewbox="0 0 20 14" width="20" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#E5E2DD" height="14" rx="2" width="20"></rect>
+<rect fill="#02274B" fill-opacity="0.2" height="3" width="20" y="3"></rect>
+<rect fill="#02274B" fill-opacity="0.3" height="2" rx="0.5" width="4" x="2" y="9"></rect>
+</svg>
+</div>
+</div>
+</div>
+<div>
+<label class="block text-sm font-bold text-primary mb-2">Expiry Date</label>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-3 px-4 text-primary focus:ring-2 focus:ring-secondary transition-all" placeholder="MM / YY" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-primary mb-2">CVC</label>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-3 px-4 text-primary focus:ring-2 focus:ring-secondary transition-all" placeholder="***" type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-3 pt-4">
+<input class="w-5 h-5 rounded text-secondary focus:ring-secondary border-none bg-surface-container-highest" id="anon" type="checkbox"/>
+<label class="text-sm text-on-surface-variant" for="anon">Make this donation anonymous</label>
+</div>
+<button class="w-full bg-gradient-to-r from-secondary to-secondary-container text-on-secondary py-5 rounded-full font-extrabold text-lg shadow-lg active:scale-95 duration-200 transition-all mt-8">
+                            Complete Donation
+                        </button>
+<div class="flex items-center justify-center gap-2 text-xs text-on-surface-variant/60 font-medium">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
+<rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect>
+<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+</svg>
+                            Secure 256-bit SSL Encrypted Payment
+                        </div>
+</div>
+</div>
+<!-- Right Column: Ways to Help & Transparency -->
+<div class="lg:col-span-5 space-y-10">
+<!-- Transparency Section -->
+<div class="bg-surface-container-high rounded-xl p-8">
+<h3 class="text-xl font-bold text-primary mb-6 flex items-center gap-2">
+<svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="#895200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<circle cx="12" cy="12" r="3" stroke="#FDA945" stroke-width="2.5"></circle>
+</svg>
+                            Where your money goes
+                        </h3>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface flex items-center justify-center shrink-0">
+<svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 10L12 3L21 10V21H15V15H9V21H3V10Z" stroke="#895200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h4 class="font-bold text-primary text-sm">65% Housing &amp; Shelters</h4>
+<p class="text-xs text-on-surface-variant">Direct maintenance and expansion of our residential facilities.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface flex items-center justify-center shrink-0">
+<svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 5V19M5 12H19" stroke="#895200" stroke-linecap="round" stroke-width="2"></path>
+<circle cx="12" cy="12" r="9" stroke="#FDA945" stroke-width="2"></circle>
+</svg>
+</div>
+<div>
+<h4 class="font-bold text-primary text-sm">20% Community Kitchen</h4>
+<p class="text-xs text-on-surface-variant">Providing over 500 nutritious meals every single week.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 rounded-lg bg-surface flex items-center justify-center shrink-0">
+<svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M22 10L12 5L2 10L12 15L22 10Z" stroke="#895200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M6 12V17C6 17 8 20 12 20C16 20 18 17 18 17V12" stroke="#FDA945" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h4 class="font-bold text-primary text-sm">15% Skill Programs</h4>
+<p class="text-xs text-on-surface-variant">Workshops and counseling for long-term independent living.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- 4 Ways to Help (Asymmetric Layout) -->
+<div>
+<h3 class="text-xl font-bold text-primary mb-6">4 Ways to Help</h3>
+<div class="grid grid-cols-1 gap-4">
+<!-- Way 1 -->
+<div class="group flex items-center justify-between p-5 bg-white rounded-xl shadow-[0_4px_20px_rgba(2,39,75,0.03)] hover:shadow-md transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container/10 flex items-center justify-center">
+<svg fill="none" height="22" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+<rect height="14" rx="2" stroke="#FDA945" stroke-width="2" width="20" x="2" y="5"></rect>
+<circle cx="12" cy="12" r="3" stroke="#895200" stroke-width="2"></circle>
+</svg>
+</div>
+<span class="font-bold text-primary">Cash Donation</span>
+</div>
+<svg class="text-outline group-hover:text-secondary transition-colors" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</div>
+<!-- Way 2 -->
+<div class="group flex items-center justify-between p-5 bg-white rounded-xl shadow-[0_4px_20px_rgba(2,39,75,0.03)] hover:shadow-md transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container/10 flex items-center justify-center">
+<svg fill="none" height="22" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z" stroke="#FDA945" stroke-width="2"></path>
+<path d="M8.21 13.89L7 23L12 20L17 23L15.79 13.88" stroke="#895200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<span class="font-bold text-primary">Community Champion</span>
+</div>
+<svg class="text-outline group-hover:text-secondary transition-colors" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</div>
+<!-- Way 3 -->
+<div class="group flex items-center justify-between p-5 bg-white rounded-xl shadow-[0_4px_20px_rgba(2,39,75,0.03)] hover:shadow-md transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container/10 flex items-center justify-center">
+<svg fill="none" height="22" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z" stroke="#FDA945" stroke-width="2"></path>
+<path d="M12 7V17M7 12H17" stroke="#895200" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+</div>
+<span class="font-bold text-primary">Community Bond</span>
+</div>
+<svg class="text-outline group-hover:text-secondary transition-colors" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</div>
+<!-- Way 4 -->
+<div class="group flex items-center justify-between p-5 bg-white rounded-xl shadow-[0_4px_20px_rgba(2,39,75,0.03)] hover:shadow-md transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container/10 flex items-center justify-center">
+<svg fill="none" height="22" viewbox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 6L13.5 15.5L8.5 10.5L1 18" stroke="#895200" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M17 6H23V12" stroke="#FDA945" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<span class="font-bold text-primary">Impact Loan</span>
+</div>
+<svg class="text-outline group-hover:text-secondary transition-colors" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 24 24" width="16">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</div>
+</div>
+</div>
+<!-- Community Spotlight -->
+<div class="relative overflow-hidden rounded-xl bg-primary aspect-[16/10] group">
+<img alt="diverse group of volunteers laughing and working together in a bright, modern community garden setting with warm sunlight" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp2ASwk6uDSCbA2gqIrhzgYJ_qp51ya8PpI613tbpUSmKqYb0ZrYk0U5nhT5UE5X1ZedoEPXK5U-u2AhHahIMf0jD7Y_wf4-ByWVz0VUsiN2LTJCW5-g_jdTltXK8JqSS541tHytx11Cz_rkHGBAw8-vtsBFxo1gbl0ctD2ZPWa7qbIKj3oZVz0WENulI-seN7svNLr2M2O95sYOsiDax1uJDsOBvZnMaOgpQSn15GNeSNA-1L1ZmxOUrexLp1VIrqCWaCIo4u5-E"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-white text-sm font-semibold uppercase tracking-widest mb-2">Our Impact</p>
+<h4 class="text-white text-2xl font-bold leading-tight">"This house isn't just a roof; it's where I found my voice again."</h4>
+<p class="text-white/80 text-xs mt-2">— Sarah, Former Resident</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f6f3ee] dark:bg-[#001229] w-full mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-7xl mx-auto gap-8">
+<div class="flex flex-col gap-4">
+<div class="text-xl font-bold text-[#02274B] dark:text-[#f6f3ee]">Kwas House</div>
+<p class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd]">© 2024 Kwas House. A Radiant Sanctuary for Community Support.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd]">
+<a class="hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all" href="#">Privacy Policy</a>
+<a class="hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all" href="#">Terms of Service</a>
+<a class="hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all" href="#">Volunteer</a>
+<a class="hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all" href="#">Newsletter Signup</a>
+</div>
+</div>
+</footer>
+</body></html>

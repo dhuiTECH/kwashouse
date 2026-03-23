@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kwas House | Housing by the Community</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed": "#d4e3ff",
+              "secondary-fixed-dim": "#ffb86a",
+              "secondary": "#895200",
+              "secondary-container": "#fda945",
+              "on-tertiary-fixed": "#001d35",
+              "on-tertiary-container": "#7390b2",
+              "outline": "#74777f",
+              "secondary-fixed": "#ffdcbc",
+              "surface-tint": "#436087",
+              "on-surface-variant": "#43474e",
+              "tertiary-fixed-dim": "#abc9ee",
+              "on-error-container": "#93000a",
+              "background": "#fcf9f4",
+              "surface-dim": "#dcdad5",
+              "tertiary-container": "#032845",
+              "inverse-surface": "#31302d",
+              "surface-bright": "#fcf9f4",
+              "inverse-primary": "#abc8f5",
+              "primary": "#001229",
+              "on-primary-container": "#738fb9",
+              "on-background": "#1c1c19",
+              "error-container": "#ffdad6",
+              "surface-container-high": "#ebe8e3",
+              "inverse-on-surface": "#f3f0eb",
+              "on-secondary-fixed-variant": "#683d00",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1c1c19",
+              "surface-container-low": "#f6f3ee",
+              "primary-fixed-dim": "#abc8f5",
+              "surface-variant": "#e5e2dd",
+              "surface-container-highest": "#e5e2dd",
+              "primary-container": "#02274b",
+              "surface": "#fcf9f4",
+              "on-tertiary": "#ffffff",
+              "error": "#ba1a1a",
+              "tertiary-fixed": "#d0e4ff",
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#001325",
+              "surface-container": "#f0ede8",
+              "on-secondary-container": "#6e4100",
+              "outline-variant": "#c3c6cf",
+              "on-primary-fixed-variant": "#2b486d",
+              "on-secondary-fixed": "#2c1700",
+              "on-tertiary-fixed-variant": "#2b4967",
+              "on-primary-fixed": "#001c39",
+              "on-primary": "#ffffff",
+              "on-error": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .bg-glass {
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f4]/80 dark:bg-[#001229]/80 backdrop-blur-md shadow-[0_40px_40px_rgba(2,39,75,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold text-[#02274B] dark:text-[#f6f3ee] tracking-tighter">Kwas House</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-semibold tracking-tight text-[#02274B] dark:text-white border-b-2 border-[#02274B] dark:border-[#f6f3ee] pb-1" href="#">Home</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-semibold tracking-tight text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white transition-colors" href="#">About Us</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-semibold tracking-tight text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white transition-colors" href="#">The Project</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-semibold tracking-tight text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-6 py-2 rounded-full font-semibold text-sm transition-all active:scale-95 duration-200 ease-in-out shadow-sm">
+            Donate
+        </button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative px-6 lg:px-12 py-16 lg:py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-6 space-y-8">
+<div class="inline-flex items-center px-3 py-1 bg-surface-container-high rounded-lg text-primary text-xs font-bold tracking-widest uppercase">
+                    Housing by the Community
+                </div>
+<h1 class="text-5xl lg:text-7xl font-extrabold text-primary tracking-tighter leading-[1.05]">
+                    Building a Radiant <br/><span class="text-secondary">Sanctuary</span> for All.
+                </h1>
+<p class="text-xl text-on-surface-variant max-w-lg leading-relaxed">
+                    Join us in transforming an architectural vision into a vibrant home for those in need. Support the dream of sustainable, community-led housing.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-8 py-4 rounded-xl font-bold text-lg shadow-[0_10px_20px_rgba(137,82,0,0.2)] active:scale-95 transition-transform">
+                        Support the Dream
+                    </button>
+<button class="flex items-center justify-center gap-2 text-primary font-bold px-8 py-4 rounded-xl hover:bg-surface-container-low transition-colors group">
+<!-- Custom Play Icon -->
+<svg class="w-6 h-6 transition-transform group-hover:scale-110" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5"></path>
+<path d="M15.5 12L10 15.5V8.5L15.5 12Z" fill="currentColor"></path>
+</svg>
+                        Watch our Story
+                    </button>
+</div>
+</div>
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3]">
+<img alt="Kwas House Architectural Drawing" class="w-full h-full object-cover" data-alt="Modern architectural drawing of a community house with sustainable wooden elements and large windows during soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdTSZAnqm8gn0wVSHhNDB4JxbID8--QnDh4gujbEQpTsh5fpKNlh3l9Zd3Ip4YJAawOA83Bqtw3ZT2QVWH4yJOwAmOlyaNIQBm9n3g8KrrY1WLP05Hr7O0oPZltrBtDgfNejkoJftR4gtXkzcZ0sPUkfxwDxOdogwsg4s7svptzfNEue_aef3UV8oh-_ywcVeGI2NuAhN3txWdSpabhnNicZFoa0EtaurYVLKEMo3q8Z44OQnYIYjgskCQFJWFi4A3cjuY7UWj2BA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent"></div>
+</div>
+<!-- Overlapping Bento Badge -->
+<div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl max-w-[240px]">
+<div class="flex items-center gap-3 mb-2">
+<!-- Custom Heart/Home Hybrid Icon -->
+<svg class="w-6 h-6 text-secondary" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" fill="currentColor"></path>
+<path d="M12 11V15M10 13H14" stroke="white" stroke-linecap="round" stroke-width="1.5"></path>
+</svg>
+<span class="text-xs font-bold text-primary uppercase tracking-wider">Join The Movement</span>
+</div>
+<p class="text-sm text-on-surface-variant italic">"We are building more than walls; we are building hope."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Fundraising Progress (Tonal Shift Section) -->
+<section class="bg-surface-container-low py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-3xl font-bold text-primary mb-6 tracking-tight">Our Fundraising Milestone</h2>
+<p class="text-on-surface-variant text-lg mb-8">Every contribution brings us closer to securing permanent housing for 14 families. See how far we've come together.</p>
+<div class="space-y-6">
+<div class="flex justify-between items-end">
+<div>
+<span class="text-5xl font-extrabold text-primary tracking-tighter">$1,156,700</span>
+<span class="text-on-surface-variant font-medium ml-2">Raised</span>
+</div>
+<div class="text-right">
+<span class="text-xl font-bold text-secondary">29%</span>
+<div class="text-xs text-on-surface-variant font-bold uppercase tracking-wider">of $3,955,000</div>
+</div>
+</div>
+<!-- Progress Bar -->
+<div class="h-4 w-full bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-gradient-to-r from-secondary to-secondary-container rounded-full" style="width: 29%"></div>
+</div>
+</div>
+</div>
+<!-- Feature Image Grid (Asymmetric) -->
+<div class="grid grid-cols-2 gap-4 h-[400px]">
+<div class="rounded-xl overflow-hidden shadow-lg h-full">
+<img alt="Community Living Space" class="w-full h-full object-cover" data-alt="Interior of a modern sunlit apartment with warm wood finishes and minimalist design representing community living" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPENDHDuAxwW-xtCAvwg8EWqQ9f0Av6Jo92PIsHwv_aMmKU3BBOYSEnUBNrZOHbpyB5rIyxEUObMDzdCNKIm8uSZb7o2ieLNRnc5SqeN_tlJsuh4ghNjTGHAwTcQdxsjbeNcO87p4VLMHUlcWZ_sGIKUdXpRe55-HsosOl_SlsOHrtTKuENcqQ1ZU7BHmTQyUB0t6HuBqvIRyCSqZbpionVrqXrmqqHSFcXft3lzsmXVP6LyryYe-8HRlsH8kTbDmArw6WzNFFXbs"/>
+</div>
+<div class="grid grid-rows-2 gap-4 h-full">
+<div class="rounded-xl overflow-hidden shadow-lg">
+<img alt="Community Leaders" class="w-full h-full object-cover" data-alt="Diverse group of community members holding architectural plans and smiling in a sunlit meeting room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNJGm5qTNaDMbFlPkiRIuo-zQ75zfjt7ZIjFOYUUIZt0Rl1_R6Bi-x8dH2vxJmT3cuTRokNfNYmfiQ10F9K2HZBf7U0NUDNdohEHF2S33mAlMP8PdJVOPbmqxi4waMfUDqJy5ttMPVf1gyXRSffRm0J90RSUVIA9Qz4LYOx4CdCpmMvpESsN5ZkuFzddeAPx6xZCb2gJIGef0UWCs-ggcwqGAcE8nvq1RBoUXcTL1vohhYjDZnUEFXqS2lzQr0Ac6q-E4ztjfzVr0"/>
+</div>
+<div class="bg-primary p-8 rounded-xl flex flex-col justify-center text-white">
+<!-- Custom Chart/Impact Icon -->
+<svg class="w-10 h-10 text-secondary-container mb-4" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 21H21" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<path d="M5 17V11" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<path d="M10 17V7" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<path d="M15 17V13" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<path d="M20 17V9" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<circle cx="10" cy="5" fill="currentColor" r="2"></circle>
+</svg>
+<div class="text-xl font-bold">14 New Units</div>
+<p class="text-sm text-on-primary-container">Providing dignity and stability for local families.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section (By The Numbers) -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center mb-16">
+<h2 class="text-4xl font-extrabold text-primary tracking-tighter mb-4">By The Numbers</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Transparency is our foundation. Here is the impact of your support and the scale of our mission.</p>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="p-8 bg-surface-container-low rounded-2xl transition-transform hover:-translate-y-2">
+<div class="text-4xl font-extrabold text-primary mb-2">14</div>
+<div class="text-sm font-bold text-secondary uppercase tracking-widest">Affordable Apts</div>
+</div>
+<div class="p-8 bg-surface-container-low rounded-2xl transition-transform hover:-translate-y-2">
+<div class="text-4xl font-extrabold text-primary mb-2">100%</div>
+<div class="text-sm font-bold text-secondary uppercase tracking-widest">Community Led</div>
+</div>
+<div class="p-8 bg-surface-container-low rounded-2xl transition-transform hover:-translate-y-2">
+<div class="text-4xl font-extrabold text-primary mb-2">350+</div>
+<div class="text-sm font-bold text-secondary uppercase tracking-widest">Volunteers</div>
+</div>
+<div class="p-8 bg-surface-container-low rounded-2xl transition-transform hover:-translate-y-2">
+<div class="text-4xl font-extrabold text-primary mb-2">2025</div>
+<div class="text-sm font-bold text-secondary uppercase tracking-widest">Target Opening</div>
+</div>
+</div>
+</section>
+<!-- Video Highlight (Community Spotlight Card) -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
+<div class="relative bg-surface-container-low rounded-[2rem] overflow-hidden p-8 lg:p-16 flex flex-col lg:flex-row items-center gap-12">
+<div class="w-full lg:w-1/2 order-2 lg:order-1">
+<h3 class="text-3xl font-bold text-primary mb-6">Watch a Kwas House Video</h3>
+<p class="text-on-surface-variant text-lg mb-8 leading-relaxed">
+                    Step inside the vision. Hear from our architects, community leaders, and future residents about what Kwas House means for our neighborhood.
+                </p>
+<button class="inline-flex items-center gap-4 bg-primary text-white px-8 py-4 rounded-xl font-bold hover:bg-primary/90 transition-colors group">
+<!-- Custom Journey Icon -->
+<svg class="w-8 h-8 text-secondary-container" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="currentColor"></path>
+<path d="M11 7L16 12L11 17L9.59 15.59L13.17 12L9.59 8.41L11 7Z" fill="currentColor"></path>
+</svg>
+                    Play the Journey
+                </button>
+</div>
+<div class="w-full lg:w-1/2 order-1 lg:order-2">
+<div class="relative aspect-video rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
+<img alt="Video Preview" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Cinematic wide shot of a community construction site with scaffolding and warm sunlight filtering through structures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGdsHD8VCQMy2L_5a6UjlGdzsd73h-BmFcPw4ZKjjjvUlF4RFj7CdIgjhaE_TeMGtrpnxct8vtUZG7_Durv52X70Lh4R7J3fcad5PWo2Xqufso_G9ZjNuHjAEpLWD8j4UCjuD-nIm1plWUfEaGqaWtwiYaBEba7Viuv3SCKvMdwotlrF43hmXN0s42GhUjcHLzjnSyeBkNwl5u9eCQQrwMsD-jLrrpl9gcXP-a2Sv7wVX-2yMcUlK-FPGP9n42gD3CaHrRmqB-ohQ"/>
+<div class="absolute inset-0 bg-primary/20 flex items-center justify-center">
+<div class="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+<!-- Custom Big Play Icon -->
+<svg class="w-10 h-10 text-secondary" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f6f3ee] dark:bg-[#001229] w-full mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-7xl mx-auto gap-8">
+<div class="flex flex-col gap-4">
+<div class="text-xl font-bold text-[#02274B] dark:text-[#f6f3ee]">Kwas House</div>
+<p class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd] max-w-xs">
+                © 2024 Kwas House. A Radiant Sanctuary for Community Support.
+            </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all duration-300" href="#">Privacy Policy</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all duration-300" href="#">Terms of Service</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all duration-300" href="#">Volunteer</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm text-[#43474e] dark:text-[#e5e2dd] hover:text-[#02274B] dark:hover:text-white underline decoration-2 underline-offset-4 transition-all duration-300" href="#">Newsletter Signup</a>
+</div>
+<div class="flex gap-4">
+<a aria-label="Global Support" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary hover:bg-secondary hover:text-white transition-colors" href="#">
+<!-- Custom World/Global Icon -->
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+</a>
+<a aria-label="Email Us" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary hover:bg-secondary hover:text-white transition-colors" href="#">
+<!-- Custom Mail Icon -->
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"></path>
+<path d="M22 6L12 13L2 6"></path>
+</svg>
+</a>
+</div>
+</div>
+</footer>
+</body></html>
