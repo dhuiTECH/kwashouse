@@ -230,7 +230,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-8 bg-surface-container-low rounded-2xl transition-transform hover:-translate-y-2">
-            <div className="text-4xl font-extrabold text-primary mb-2">2025</div>
+            <div className="text-4xl font-extrabold text-primary mb-2">2027</div>
             <div className="text-sm font-bold text-secondary uppercase tracking-widest">
               Target Opening
             </div>

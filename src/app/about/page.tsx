@@ -8,13 +8,11 @@ export const metadata: Metadata = {
 
 export default function About() {
   const fishDirectors = [
-    { name: "Jan Bentley", description: "Long-time Hope resident, retired from Victim Services." },
-    { name: "George Preston", description: "Retired RCMP Staff Sergeant, advocate for son Scott." },
-    { name: "Naomi Bergstrom", description: "Executive Director at Tillicum Centre for 15+ years." },
-    { name: "Marianne Brueckert", description: "Victim Services manager and life coach." },
     { name: "Garry Vath", description: "Retired VPD officer and former firefighter." },
-    { name: "Marlene Schmidt", description: "Treasurer for the Tillicum Centre." },
     { name: "Frank Wise", description: "President of the Hope Lions Club." },
+    { name: "Naomi Bergstrom", description: "Executive Director at Tillicum Centre for 15+ years." },
+    { name: "Jan Bentley", description: "Long-time Hope resident, retired from Victim Services." },
+    { name: "Marlene Schmidt", description: "Treasurer for the Tillicum Centre." },
   ];
 
   const anhartPartners = [
