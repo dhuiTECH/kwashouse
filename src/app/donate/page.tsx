@@ -39,7 +39,9 @@ export default function Donate() {
                   information is protected.
                 </p>
                 <Link
-                  href="https://kwashouse.org/donate/"
+                  href="https://www.canadahelps.org/en/dn/76476"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block w-full bg-gradient-to-r from-secondary to-secondary-container text-on-secondary text-center py-5 rounded-full font-extrabold text-xl shadow-lg active:scale-95 duration-200 transition-all"
                 >
                   Donate Now
@@ -179,7 +181,9 @@ export default function Donate() {
               <div className="grid grid-cols-1 gap-4">
                 {/* Way 1 */}
                 <Link 
-                  href="https://kwashouse.org/donate/"
+                  href="https://www.canadahelps.org/en/dn/76476"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group flex items-center justify-between p-5 bg-white rounded-xl shadow-[0_4px_20px_rgba(2,39,75,0.03)] hover:shadow-md transition-all cursor-pointer"
                 >
                   <div className="flex items-center gap-4">

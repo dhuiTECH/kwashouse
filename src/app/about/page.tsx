@@ -45,7 +45,12 @@ export default function About() {
               <Link href="/project" className="bg-primary text-white px-8 py-4 rounded-lg font-bold hover:bg-primary/90 transition-all text-center">
                 Explore The Project
               </Link>
-              <Link href="https://kwashouse.org/donate/" className="bg-surface-container-high text-primary px-8 py-4 rounded-lg font-bold hover:bg-surface-container-highest transition-all text-center">
+              <Link 
+                href="https://www.canadahelps.org/en/dn/76476" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-surface-container-high text-primary px-8 py-4 rounded-lg font-bold hover:bg-surface-container-highest transition-all text-center"
+              >
                 Support Us
               </Link>
             </div>
@@ -141,7 +146,9 @@ export default function About() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://kwashouse.org/donate/"
+                href="https://www.canadahelps.org/en/dn/76476"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-secondary-container text-primary font-bold px-10 py-5 rounded-full hover:shadow-[0_0_20px_rgba(253,169,69,0.4)] transition-all active:scale-95"
               >
                 Become a Partner

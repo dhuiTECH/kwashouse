@@ -53,7 +53,9 @@ export function Header() {
 
         <div className="hidden md:block">
           <Link 
-            href="https://kwashouse.org/donate/" 
+            href="https://www.canadahelps.org/en/dn/76476" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-6 py-2 rounded-full font-semibold text-sm transition-all active:scale-95 duration-200 ease-in-out shadow-sm inline-block"
           >
             Donate
@@ -92,7 +94,9 @@ export function Header() {
               );
             })}
             <Link
-              href="https://kwashouse.org/donate/"
+              href="https://www.canadahelps.org/en/dn/76476"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsMobileMenuOpen(false)}
               className="bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-6 py-3 rounded-full font-semibold text-center mt-4 active:scale-95 transition-transform"
             >

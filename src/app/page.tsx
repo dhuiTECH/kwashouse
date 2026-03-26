@@ -24,7 +24,12 @@ export default function Home() {
               Kwas House was born from the dreams of parents at the Tillicum Centre. Join us in building 14 affordable apartments for adults with cognitive challenges and seniors in Hope, BC.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href="https://kwashouse.org/donate/" className="inline-block text-center bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-8 py-4 rounded-xl font-bold text-lg shadow-[0_10px_20px_rgba(137,82,0,0.2)] active:scale-95 transition-transform">
+              <Link 
+                href="https://www.canadahelps.org/en/dn/76476" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-center bg-gradient-to-r from-secondary to-secondary-container text-on-secondary px-8 py-4 rounded-xl font-bold text-lg shadow-[0_10px_20px_rgba(137,82,0,0.2)] active:scale-95 transition-transform"
+              >
                 Support the Dream
               </Link>
               <Link 
