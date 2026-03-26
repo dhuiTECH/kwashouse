@@ -56,14 +56,14 @@ export default function About() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl transform rotate-2">
+            <div className="rounded-[2rem] overflow-hidden shadow-2xl">
               <img
                 alt="diverse group of people laughing together"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtyky0IcD1UGEgnz_d9X8v62L89T-2x3CQxYB3DwBGislVvS0F4av2Q0-RDjhg3m6JKm917MRLDtnvvkGIdQo95uRZzHGJt1PQnMrngRVqp_sGYrrEfMerLvKLE64J72xYhmeTzqzECFtMDBmc4bZgjGvneVX_RtLsu83Ovh4RqZe8afrbfzd4D2HAbUVJ-j7-AkodWALRhqbAY_6FuKLTfslSH7TzEL1kv1sjsFCtCoCuxbScYO5RlOvExw_gQLDMP1ygEiKLo_M"
+                src="/kwashousebeginning.jpeg"
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 w-64 aspect-square rounded-2xl overflow-hidden shadow-xl transform -rotate-3 border-8 border-background">
+            <div className="absolute -bottom-8 -left-8 w-64 aspect-square rounded-2xl overflow-hidden shadow-xl border-8 border-background">
               <img
                 alt="hands reaching out"
                 className="w-full h-full object-cover"
@@ -160,7 +160,7 @@ export default function About() {
               <img
                 alt="workshop"
                 className="w-full h-[400px] object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfPAGJEuGyA8UealKiXr3DLfal5zGUKMGSLB78Ah70p2fUUOtM3OS98YdOfMoPPfOTd5NSXWFd4BKpacy994UkDg6_x3L-4pKfDCTjJ-ihINFKVoadPXLmsStJa7xER3c2BEEQvAbU7PahF5-E3ko8YpSjN4Shzg9t6H0xSnw4EICstm6m5ol3hyFDkC_0R3uEvTKJ5WvyPxQVM60O78xH8w6morx6hxzBG9dQFrjXgi90dqLBiz21X9ACi1GH11GauSZAZliTa74"
+                src="/community.jpeg"
               />
             </div>
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-secondary-container rounded-full opacity-20 blur-3xl"></div>

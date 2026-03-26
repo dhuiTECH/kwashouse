@@ -63,7 +63,7 @@ export default function Contact() {
                       </a>
                       <a
                         className="flex items-center gap-3 p-3 bg-surface-container-lowest rounded-lg hover:bg-secondary-container/10 transition-colors group/link"
-                        href="mailto:fishsociety321@gmail.com"
+                        href="mailto:fishsociety@hotmail.com"
                       >
                         <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary group-hover/link:bg-secondary group-hover/link:text-white transition-all">
                           <svg
@@ -83,7 +83,7 @@ export default function Contact() {
                           <span className="block text-xs text-on-surface-variant font-medium">
                             Email
                           </span>
-                          <span className="text-primary font-bold">fishsociety321@gmail.com</span>
+                          <span className="text-primary font-bold">fishsociety@hotmail.com</span>
                         </div>
                       </a>
                     </div>

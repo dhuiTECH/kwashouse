@@ -20,7 +20,7 @@ export function Footer() {
             <p className="font-bold">Fraser Inclusive and Supportive Housing Society</p>
             <p>477 Hudson Bay Street, Hope, BC, CANADA</p>
             <p>Phone: <a href="tel:+17787832965" className="hover:text-primary transition-colors">+1 (778) 783-2965</a></p>
-            <p>Email: <a href="mailto:fishsociety321@gmail.com" className="hover:text-primary transition-colors">fishsociety321@gmail.com</a></p>
+            <p>Email: <a href="mailto:fishsociety@hotmail.com" className="hover:text-primary transition-colors">fishsociety@hotmail.com</a></p>
             <p>© {new Date().getFullYear()} Kwas House. A Radiant Sanctuary for Community Support.</p>
           </div>
         </div>

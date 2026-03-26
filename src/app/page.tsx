@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-8">
             <div className="inline-flex items-center px-3 py-1 bg-surface-container-high rounded-lg text-primary text-xs font-bold tracking-widest uppercase">
-              Housing by the Community
+              Housing for the Community
             </div>
             <h1 className="text-5xl lg:text-7xl font-extrabold text-primary tracking-tighter leading-[1.05]">
               A Forever Home in <br />
@@ -55,6 +56,17 @@ export default function Home() {
                 Watch our Story
               </Link>
             </div>
+
+            <Link href="https://anhart.ca/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 pt-4 group">
+              <span className="text-sm text-on-surface-variant group-hover:text-primary transition-colors">Developed by</span>
+              <Image
+                src="/Anhart logo transparent backgroundsmall.png"
+                alt="Anhart Community Housing Society Logo"
+                width={80}
+                height={20}
+                className="h-5 w-auto object-contain group-hover:brightness-110 transition-all"
+              />
+            </Link>
           </div>
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3]">
@@ -68,26 +80,15 @@ export default function Home() {
             {/* Overlapping Bento Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl max-w-[280px]">
               <div className="flex items-center gap-3 mb-2">
-                {/* Custom Heart/Home Hybrid Icon */}
-                <svg
-                  className="w-6 h-6 text-secondary"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M12 11V15M10 13H14"
-                    stroke="white"
-                    strokeLinecap="round"
-                    strokeWidth="1.5"
-                  />
-                </svg>
+                <Image
+                  src="/garryvath.jpeg"
+                  alt="Garry Vath"
+                  width={40}
+                  height={40}
+                  className="rounded-full object-cover"
+                />
                 <span className="text-xs font-bold text-primary uppercase tracking-wider">
-                  Our Mission
+                  Garry Vath
                 </span>
               </div>
               <p className="text-sm text-on-surface-variant italic">
@@ -142,7 +143,7 @@ export default function Home() {
                 <img
                   alt="Community Living Space"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPENDHDuAxwW-xtCAvwg8EWqQ9f0Av6Jo92PIsHwv_aMmKU3BBOYSEnUBNrZOHbpyB5rIyxEUObMDzdCNKIm8uSZb7o2ieLNRnc5SqeN_tlJsuh4ghNjTGHAwTcQdxsjbeNcO87p4VLMHUlcWZ_sGIKUdXpRe55-HsosOl_SlsOHrtTKuENcqQ1ZU7BHmTQyUB0t6HuBqvIRyCSqZbpionVrqXrmqqHSFcXft3lzsmXVP6LyryYe-8HRlsH8kTbDmArw6WzNFFXbs"
+                  src="/kwasgroup2.jpg"
                 />
               </div>
               <div className="grid grid-rows-2 gap-4 h-full">
@@ -150,7 +151,7 @@ export default function Home() {
                   <img
                     alt="Community Leaders"
                     className="w-full h-full object-cover"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNJGm5qTNaDMbFlPkiRIuo-zQ75zfjt7ZIjFOYUUIZt0Rl1_R6Bi-x8dH2vxJmT3cuTRokNfNYmfiQ10F9K2HZBf7U0NUDNdohEHF2S33mAlMP8PdJVOPbmqxi4waMfUDqJy5ttMPVf1gyXRSffRm0J90RSUVIA9Qz4LYOx4CdCpmMvpESsN5ZkuFzddeAPx6xZCb2gJIGef0UWCs-ggcwqGAcE8nvq1RBoUXcTL1vohhYjDZnUEFXqS2lzQr0Ac6q-E4ztjfzVr0"
+                    src="/kwasgroup.jpg"
                   />
                 </div>
                 <div className="bg-primary p-8 rounded-xl flex flex-col justify-center text-white">

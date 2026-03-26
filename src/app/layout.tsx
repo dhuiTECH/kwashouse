@@ -69,7 +69,7 @@ export default function RootLayout({
       "@type": "ContactPoint",
       "telephone": "+1-778-783-2965",
       "contactType": "customer service",
-      "email": "fishsociety321@gmail.com",
+      "email": "fishsociety@hotmail.com",
       "areaServed": "CA",
       "availableLanguage": "en"
     },

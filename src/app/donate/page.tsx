@@ -51,7 +51,7 @@ export default function Donate() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-6 bg-surface-container-high rounded-xl">
                   <h4 className="font-bold text-primary mb-2 text-sm uppercase tracking-wider">E-Transfer</h4>
-                  <p className="text-secondary font-bold text-lg mb-1 truncate">fishsociety321@gmail.com</p>
+                  <p className="text-secondary font-bold text-lg mb-1 truncate">fishsociety@hotmail.com</p>
                   <p className="text-xs text-on-surface-variant">Please include your name and address in the notes for a tax receipt.</p>
                 </div>
                 <div className="p-6 bg-surface-container-high rounded-xl">
