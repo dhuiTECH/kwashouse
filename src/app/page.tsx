@@ -12,8 +12,9 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative px-6 lg:px-12 py-16 lg:py-24 overflow-hidden">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 space-y-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-12">
+          <div className="flex-1 min-w-0 space-y-8">
             <div className="inline-flex items-center px-3 py-1 bg-surface-container-high rounded-lg text-primary text-xs font-bold tracking-widest uppercase">
               Housing for the Community
             </div>
@@ -68,7 +69,7 @@ export default function Home() {
               />
             </Link>
           </div>
-          <div className="lg:col-span-6 relative">
+          <div className="flex-1 min-w-0 relative">
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3]">
               <img
                 alt="Kwas House Architectural Drawing"
@@ -96,6 +97,26 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="mt-12 lg:mt-16 max-w-4xl mx-auto flex flex-col items-center gap-6 md:gap-8 text-center px-2">
+          <p className="text-base md:text-lg lg:text-xl font-semibold text-secondary tracking-tight leading-snug">
+            Thank you to our community partners and sponsors for your generosity and for helping make Kwas House possible.
+          </p>
+          <Link
+            href="https://www.propestclean.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block transition-opacity hover:opacity-90"
+          >
+            <Image
+              src="/sponsorslogo/propestcleanlogo.png"
+              alt="Propest Clean sponsor logo"
+              width={400}
+              height={140}
+              className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto max-w-[min(100%,28rem)] object-contain"
+            />
+          </Link>
+        </div>
         </div>
       </section>
 
@@ -142,7 +163,7 @@ export default function Home() {
               <div className="rounded-xl overflow-hidden shadow-lg h-full">
                 <img
                   alt="Community Living Space"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[85%_center]"
                   src="/kwasgroup2.jpg"
                 />
               </div>
